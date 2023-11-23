@@ -1,0 +1,101 @@
+body{
+  background: rgba(37, 34, 200, 0.616);
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+#form{
+  width: 400px;
+  margin: 20vh auto 0 auto;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  padding: 30px;
+}
+h1{
+  text-align: center;
+  color: rgb(226, 43, 83);
+}
+#form button{
+  background-color: rgb(226, 43, 83);
+  color: white;
+  padding: 10px;
+  margin:20px 0px;
+  border-radius: 5px;
+  border: 1px rgb(226, 43, 83);
+  cursor: pointer;
+  font-size: 20px;
+  width: 100%;
+}
+.input-group{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+.input-group input{
+  border-radius: 5px;
+  padding: 10px;
+  border: 2px solid aquamarine;
+  margin-top: 5px;
+  font-size: 20px;
+}
+.input-group input:focus{
+  outline:0;/*to remove hover focus*/
+}
+.input-group .error{
+  color: red;
+  margin-top: 5px;
+  font-size: 16px;
+}
+.input-group.success input{
+  border-color: aquamarine;
+}
+.input-group.error input{
+  border-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
